@@ -12,3 +12,18 @@ Esta API foi construída com Spring Boot para calcular o horário de saída com 
 
 ### Endpoint
 
+
+### Corpo da Requisição (JSON)
+
+```json
+{
+  "entrada": "08:00",
+  "almoco": "12:00",
+  "retorno": "13:00",
+  "minutosExtra": 50
+}
+
+{
+  "horarioSaida": "17:50",
+  "minutosConvertidos": 0.83
+}
